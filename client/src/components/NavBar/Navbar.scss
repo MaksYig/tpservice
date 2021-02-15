@@ -1,0 +1,30 @@
+
+.Navbar__wrapper{
+  display: flex;
+  justify-content: space-between;
+
+  .Navbar{
+  display: flex;
+  justify-content: space-between;
+  .NavbarLink{
+    text-transform: uppercase;
+    font-size: 500;
+
+  }
+  }
+  .NavbarUser{
+    display: flex;
+    align-items: center;
+    .Navbaruser__link{
+      display: flex;
+      align-items: center;
+    }
+    .UserAvatar{
+      margin: 0 7px;
+    }
+    .NavbarUser__name{
+      padding: 0 5px;
+    }
+  }
+
+}
